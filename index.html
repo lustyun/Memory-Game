@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="score-container">
+			<div class="player player1">
+			  <h2>Player 1</h2>
+			  <p>Score: <span id="player1-score" class="score">0</span></p>
+			</div>
+		
+			<div class="player player2">
+			  <h2>Player 2</h2>
+			  <p>Score: <span id="player2-score" class="score">0</span></p>
+
+			</div>
+			
+			<button id="reset-button" class="reset-button">Reset Game</button>
+			<h1 class="winner-text"></h1>
+		</div>
+		<div class="container">
+			<div class="card" data-name="Duck">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/duck.png" alt="Duck" />
+			</div>
+			<div class="card" data-name="Duck">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/duck.png" alt="Duck" />
+			</div>
+			<div class="card" data-name="Alpaca">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/alpaca.png" alt="Alpaca" />
+			</div>
+			<div class="card" data-name="Alpaca">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/alpaca.png" alt="Alpaca" />
+			</div>
+			<div class="card" data-name="Axolotl">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/axolotl.png" alt="Axolotl" />
+			</div>
+			<div class="card" data-name="Axolotl">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/axolotl.png" alt="Axolotl" />
+			</div>
+			<div class="card" data-name="Butterfly">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/butterfly.png" alt="Butterfly" />
+			</div>
+			<div class="card" data-name="Butterfly">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/butterfly.png" alt="Butterfly" />
+			</div>
+			<div class="card" data-name="Cat">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/cat.png" alt="Cat" />
+			</div>
+			<div class="card" data-name="Cat">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/cat.png" alt="Cat" />
+			</div>
+			<div class="card" data-name="Chicken">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/chicken.png" alt="Chicken" />
+			</div>
+			<div class="card" data-name="Chicken">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/chicken.png" alt="Chicken" />
+			</div>
+			<div class="card" data-name="Cow">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/cow.png" alt="Cow" />
+			</div>
+			<div class="card" data-name="Cow">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/cow.png" alt="Cow" />
+			</div>
+			<div class="card" data-name="Crab">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/crab.png" alt="Crab" />
+			</div>
+			<div class="card" data-name="Crab">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/crab.png" alt="Crab" />
+			</div>
+			<div class="card" data-name="Fox">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/fox.png" alt="Fox" />
+			</div>
+			<div class="card" data-name="Fox">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/fox.png" alt="Fox" />
+			</div>
+			<div class="card" data-name="Frog">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/frog.png" alt="Frog" />
+			</div>
+			<div class="card" data-name="Frog">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/frog.png" alt="Frog" />
+			</div>
+			<div class="card" data-name="Jaguar">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/jaguar.png" alt="Jaguar" />
+			</div>
+			<div class="card" data-name="Jaguar">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/jaguar.png" alt="Jaguar" />
+			</div>
+			<div class="card" data-name="Pelican">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/pelican.png" alt="Pelican" />
+			</div>
+			<div class="card" data-name="Pelican">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/pelican.png" alt="Pelican" />
+			</div>
+			<div class="card" data-name="Pig">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/pig.png" alt="Pig" />
+			</div>
+			<div class="card" data-name="Pig">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/pig.png" alt="Pig" />
+			</div>
+			<div class="card" data-name="Seahorse">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/seahorse.png" alt="Seahorse" />
+			</div>
+			<div class="card" data-name="Seahorse">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/seahorse.png" alt="Seahorse" />
+			</div>
+			<div class="card" data-name="Turtle">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/turtle.png" alt="Turtle" />
+			</div>
+			<div class="card" data-name="Turtle">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/turtle.png" alt="Turtle" />
+			</div>
+			<div class="card" data-name="Unicorn">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/unicorn.png" alt="Unicorn" />
+			</div>
+			<div class="card" data-name="Unicorn">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/unicorn.png" alt="Unicorn" />
+			</div>
+			<div class="card" data-name="Phoenix">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/phoenix.png" alt="Phoenix" />
+			</div>
+			<div class="card" data-name="Phoenix">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/phoenix.png" alt="Phoenix" />
+			</div>
+			<div class="card" data-name="Stingray">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/stingray.png" alt="Stingray" />
+			</div>
+			<div class="card" data-name="Stingray">
+				<img class="back" src="images/question.png" alt="Question mark" />
+				<img class="front" src="images/stingray.png" alt="Stingray" />
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
