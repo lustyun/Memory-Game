@@ -20,6 +20,7 @@ body {
 	margin-left: 0;
 	display: flex;
 	flex-wrap: wrap;
+	flex-shrink: 0;
 	perspective: 1000px;
 }
 
@@ -32,11 +33,11 @@ body {
 	border-radius: 5px;
 	background-color: rgb(255, 229, 252);
 	position: relative;
-	transform-style: preserve-3d;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
 	transform: scale(1);
 	transform-style: preserve-3d;
 	transition: transform 0.5s;
+
 }
 
 .front,
