@@ -144,7 +144,7 @@ function resetGame() {
 	setTimeout(() => {
 		shuffle();
 		lockBoard = false;
-	}, 1000);
+	}, 500);
 }
 
 resetButton.addEventListener("click", resetGame);
