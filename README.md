@@ -15,4 +15,9 @@ The Memory Game is a popular and enjoyable game that helps enhance cognitive ski
 HTML, CSS, JavaScript
 
 ## Unsolved Problems
-After two cards are flipped and are not a match, the first card cannot be flipped first again until another card is flipped.
+The card container is not shrinkabe as it distorts the imagues or even makes then disappear.
+
+## Stretch goals
+Dynamically add cards.
+Have different card themes.
+Set diffuculty level (Number of cards to display)
